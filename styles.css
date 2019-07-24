@@ -23,6 +23,19 @@
 	background-color: grey;
 
 }
+.service-font{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: white;
+}
+#service-Photography-font{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+.s-c4-text{
+	text-align: center;
+}
 #services-card2-background{
 	/* background-color: rgb(84, 150, 255); */
 
@@ -68,8 +81,22 @@ background-size: cover;
 	text-align: center;
 	margin-top: 20%;
 }
+.services-card-header{
+	color: white;
+	text-align: center;
+	margin-top: 20%;
+}
 #about-margin-10{
 	margin-top: 10%;
+}
+#service-card-body{
+	color: white;
+	text-align: center;
+}
+.services-card-white{
+	color: white;
+	text-align: center;
+	margin-top: 5%;
 }
 .services-card-whitetext-body{
 	color: white;
@@ -87,6 +114,7 @@ background-size: cover;
 		background-image: url("./assets/team.jpg");
 		background-size: cover;
 		display: block;
+		/* font-family: 'Dancing Script', cursive; */
 		/* object-fit: cover; */
 }
 .service-video-background{
@@ -245,16 +273,23 @@ position: absolute;
 	 font-weight: bold;
 	/* background-color: black; */
 }
+#service-header-font{
+	font-family: 'Dancing Script', cursive;
+	/* color: rgb(255, 200, 48); */
+}
 #centered-service-header{
 	/* color: rgb(255, 229, 158); */
+
 	color: rgb(255, 200, 48);
-	position: absolute;
+	/* position: absolute; */
 	top: 5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	text-shadow: 2px 2px 4px black;
-	 font-weight: bold;
-	/* background-color: black; */
+	/* text-shadow: 2px 2px 4px black; */
+	font-weight: bold;
+}
+.navbar.navbar-expand-lg navbar-light bg-light.collapse navbar-collapse.navbar-nav a {
+  font-family: 'Dancing Script', cursive;
 }
 /*^^^^^^^^^^^^^^^^^^^ About ^^^^^^^^^^^^^^^^^^  */
 #jumbo-about{
@@ -291,7 +326,11 @@ position: absolute;
 		background-image: url("./assets/team2.jpg");
 		background-size: cover;
 		display: block;
+		/* font-family: 'Dancing Script', cursive; */
 		/* object-fit: cover; */
+}
+#font-dancing-script{
+	font-family: 'Dancing Script', cursive;
 }
 
 .img-circular{
