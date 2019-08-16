@@ -9,6 +9,11 @@
 	background-color: white;
   text-align: center;
 }
+#img-carousel{
+ height: 480px;
+ object-fit: cover;
+ margin-bottom: 0%;
+}
 .contact-header{
 	height: 500px;
 	width: 100%;
