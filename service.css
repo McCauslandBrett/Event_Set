@@ -1,4 +1,14 @@
+/* Navigation Navigation Navigation Navigation */
+.number{
+	text-align: center;
+	margin-left:  50%;
+}
 /* ^^^^^^^^^^^^^^^ Service ^^^^^^^^^^^^^^^^^^^^^^ */
+#img-carousel{
+ height: 480px;
+ object-fit: cover;
+ margin-bottom: 0%;
+}
 #service-video-container{
 	height: "315";
 	width: "560";
@@ -6,9 +16,6 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 
-}
-.home-margin-5{
-	margin-bottom: 5%;
 }
 .facility-body {
    width:1400px;
@@ -19,10 +26,8 @@
 	width: 100%;
 	height: 100%;
 }
-
 #services-card1-body{
 	background-color: grey;
-
 }
 .service-font{
 	font-family: 'Dancing Script', cursive;
@@ -42,17 +47,12 @@
 .s-c4-text{
 	text-align: center;
 }
-#services-card2-background{
-	/* background-color: rgb(84, 150, 255); */
 
-	background-image: url('assets/welding.jpg');
-	justify-content: center;
-	align-items: center;
-}
-#services-card2-body-background{
+#services-card2-body-background
+{
 height: 400px;
 width: 1000px;
-background-image: url('assets/welding.jpg');
+background-image: url('assets/Dj.jpg');
 background-size: cover;
 /* width: 100%; */
 }
@@ -69,6 +69,11 @@ width: 1000px;
 background-image: url('assets/a1.jpg');
 background-size: cover;
 /* width: 100%; */
+}
+#services-card5-body-background{
+	height: 400px;
+	width: 1000px;
+	
 }
 #services-card1-background{
 	background-color: grey;
@@ -95,7 +100,6 @@ background-size: cover;
 	text-align: center;
 	margin-top: 20%;
 }
-
 #service-card-body{
 	color: white;
 	text-align: center;
@@ -124,138 +128,38 @@ background-size: cover;
   margin-bottom: 5%;
 
 }
-
 .service-header{
 		height: 500px;
 		width: 100%;
-		background-image: url("./assets/team.jpg");
+		/* background-image: url("./assets/team.jpg");
 		background-size: cover;
-		display: block;
+		display: block; */
 		/* font-family: 'Dancing Script', cursive; */
 		/* object-fit: cover; */
+}
+#centered-about-header{
+	/* color: rgb(255, 229, 158); */
+	color: orange;
+	position: relative;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 2px 2px 4px black;
+	 font-weight: bold;
+	/* background-color: black; */
 }
 .service-video-background{
 	height: 400px;
 	width: 100%;
 	background-color: rgb(211, 211, 211);
 }
-#IR {
-  background-image: url('assets/welding.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  height: "315";
-  width: "560";
-}
-#I {
-
-  /* background-image: url('assets/welding.jpg');
-  image-size:cover;
-  background-repeat: no-repeat; */
-  /* height: "315";
-  width: "560"; */
-}
-
-#fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-#fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-.portrait {
-    height: 200px;
-    width: 200px;
-}
-.portrait img {
-    max-width: 100%;
-    max-height: 100%;
-
-}
-/* ^^^^^^^^^^^^^^^ gallery ^^^^^^^^^^^^^^^^^^^^^^ */
-#gallery{
-	width: 30%;
-	float: left;
-	margin: 1.66%;
-}
-.clear{
-	clear: left;
-}
-.gallery p {
-	font-family: Raleway;
-	margin-left: 1.66%;
-	font-size: 23px;
-	font-weight: 800;
-	text-transform: uppercase;
-	border-bottom: 2px solid #f1f1f1;
-	width: 30%;
-	padding-bottom: 20px;
-}
-/* ^^^^^^^^^^^^^^^ Home ^^^^^^^^^^^^^^^^^^^^^^ */
-#home-Jumbo{
-	margin-top: 0%;
-	background-color: white;
-  text-align: center;
-}
-#img-carousel{
- height: 480px;
- object-fit: cover;
- margin-bottom: 0%;
-}
-#home-client-Jumbo{
-	margin-top: 0%;
-	background-color: rgb(211, 211, 211);
-  text-align: center;
-}
-/* ^^^^^^^^^^^^^^^ Contact ^^^^^^^^^^^^^^^^^^^^^^ */
-#contactJumbo{
-	margin-top: 0%;
-	background-color: white;
-  text-align: center;
-}
-#about-text-body{
-	width:  90%;
-}
-.contact-header{
-	height: 500px;
-	width: 100%;
-	background-image: url("./assets/contact.jpg");
-	background-size: cover;
-	display: block;
-
-}
-#gallery-text-header{
-	text-align: center;
-}
-#form-margins{
-	margin-left: 5%;
-	margin-right: 5%;
-}
-#centered-contact-header{
-	color: white;
-position: absolute;
-	top: 7%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-shadow: 2px 2px 4px black;
-	 font-weight: bold;
-}
-#about-text-section{
-	text-align: center;
-}
 #text-align-center{
 	text-align: center;
-
 }
 #shadow{
 	text-shadow: 2px 2px 4px #000000;
 }
-#underline{
-	text-decoration: underline;
-}
+
 .carddiv{
 	height: 350px;
 }
@@ -274,22 +178,7 @@ position: absolute;
 	height: 100%;
 
 }
-.transbox{
- background-color: black;
- opacity: 0.9;
-  /* filter: alpha(opacity=30); */
-}
-#centered-about-header{
-	/* color: rgb(255, 229, 158); */
-	color: white;
-	position: absolute;
-	top: 5%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-shadow: 2px 2px 4px black;
-	 font-weight: bold;
-	/* background-color: black; */
-}
+
 #service-header-font{
 	font-family: 'Dancing Script', cursive;
 	/* color: rgb(255, 200, 48); */
@@ -308,17 +197,7 @@ position: absolute;
 .navbar.navbar-expand-lg navbar-light bg-light.collapse navbar-collapse.navbar-nav a {
   font-family: 'Dancing Script', cursive;
 }
-/*^^^^^^^^^^^^^^^^^^^ About ^^^^^^^^^^^^^^^^^^  */
-#jumbo-about{
-	background-color: rgb(211, 211, 211);
-}
 
-.centered {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .card{
 	border: none;
 }
@@ -332,89 +211,9 @@ position: absolute;
 	height: 500px;
 	border: none;
 }
-.number{
-	text-align: center;
-	margin-left:  60%;
-
-}
-.about-header{
-		height: 500px;
-		width: 100%;
-		background-image: url("./assets/team2.jpg");
-		background-size: cover;
-		display: block;
-		/* font-family: 'Dancing Script', cursive; */
-		/* object-fit: cover; */
-}
 #font-dancing-script{
 	font-family: 'Dancing Script', cursive;
 }
-
-.img-circular{
- width: 200px;
- height: 200px;
- background-image: url('./assets/boss.jpg');
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-
-
-}
-.about-people{
-	margin-bottom: 5%;
-}
-.img-circularr{
- width: 200px;
- height: 200px;
- background-image: url('./assets/person.jpg');
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-
-
-}
-.img-circularrr{
- width: 200px;
- height: 200px;
- background-image: url('./assets/women.jpg');
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-
-
-}
-#about-location{
-	background-color: rgb(100, 100, 100);
-
-}
-
-#about-location li{
-	color: white;
-}
-#about-location h1{
-	color: white;
-}
-#about-location h3{
-	color: white;
-}
-#about-location p{
-	color: white;
-}
-
-#carouselExampleCaptions{
-	height: 500px;
-}
-.form{
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
 /* ^^^^^^^^^^^^^^ footer ^^^^^^^^^^^^^^^^^^^^^ */
 .footer-distributed .footer-left{
 	width: 40%;
