@@ -25,6 +25,10 @@
 	margin-left: 5%;
 	margin-right: 5%;
 }
+.form-margins{
+	margin-left: 10%;
+	margin-right: 10%;
+}
 #centered-contact-header{
 	color: white;
   position: absolute;

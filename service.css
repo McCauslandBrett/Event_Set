@@ -73,7 +73,7 @@ background-size: cover;
 #services-card5-body-background{
 	height: 400px;
 	width: 1000px;
-	
+
 }
 #services-card1-background{
 	background-color: grey;
@@ -214,6 +214,7 @@ background-size: cover;
 #font-dancing-script{
 	font-family: 'Dancing Script', cursive;
 }
+/* ^^^^^^^^^^^^^^ footer ^^^^^^^^^^^^^^^^^^^^^ */
 /* ^^^^^^^^^^^^^^ footer ^^^^^^^^^^^^^^^^^^^^^ */
 .footer-distributed .footer-left{
 	width: 40%;
